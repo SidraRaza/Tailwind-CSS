@@ -4,7 +4,7 @@ import Project from '../components/Projects';
 const page = () => {
   return (
     <>
-    <div className='bg-image h-[470px] sm:h-[550px] md:h-[600px] bg-cover bg-center bg-no-repeat relative'>
+    <div className='bg-image h-[500px] sm:h-[550px] md:h-[600px] bg-cover bg-center bg-no-repeat relative'>
     <div className="flex justify-center items-center text-center pt-28">
       <div className="flex justify-center items-center text-center bg-yellow bg-opacity-40 border-2 border-dashed border-orange-500 w-full max-w-[900px] mx-4 sm:mx-6 md:mx-8 p-4 sm:p-6 md:p-8"> 
         <div className="relative">
