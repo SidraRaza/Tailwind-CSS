@@ -25,19 +25,19 @@ const Header = () => {
           </label>
 
           {/* Navigation Menu */}
-          <ul className=" flex-col list-none lg:bg-transparent w-full bg-yellow text-black absolute right-0 top-[70px] sm:w-[600px] md:w[800px] lg:w-[1200px] mx-auto p-1 lg:p-0 rounded-md lg:rounded-none shadow-lg lg:shadow-none hidden peer-checked:flex">
+          <ul className=" flex-col list-none lg:bg-transparent w-full bg-yellow text-black absolute right-0 top-[70px] sm:w-[600px] md:w[800px] lg:w-[1200px] mx-auto p-1 lg:p-0 rounded-md lg:rounded-none  hidden peer-checked:flex">
   <li className="pl-2 lg:pl-0">
-    <Link href="/home" className="block text-black px-2 lg:px-4 lg:py-10 py-6 hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg">
+    <Link href="/home" className="block text-black px-2 lg:px-4 lg:py-10 py-6 lg:hover:bg-yellowLight hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg">
       Home
     </Link>
   </li>
   <li className="pl-2 lg:pl-0">
-    <Link href="/About" className="block text-black px-2 lg:px-4 lg:py-10 py-6 hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg">
+    <Link href="/About" className="block text-black px-2 lg:px-4 lg:py-10 py-6 lg:hover:bg-yellowLight hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg">
       About
     </Link>
   </li>
   <li className="pl-2 lg:pl-0">
-    <Link href="/Project" className="block text-black px-2 lg:px-4 lg:py-10 py-6 hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg">
+    <Link href="/Project" className="block text-black px-2 lg:px-4 lg:py-10 py-6 lg:hover:bg-yellowLight hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg">
       Projects
     </Link>
   </li>
@@ -46,7 +46,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-    <div className='bg-yellow lg:h-[550px] sm:h-[650px]'>
+    <div className='bg-yellow w-full lg:h-[550px] h-[650px]'>
 
     </div>
     </>
