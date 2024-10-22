@@ -19,7 +19,7 @@ const Header = () => {
         </label>
         <ul className="flex-col list-none md:flex md:flex-row md:static absolute right-0 top-[70px] bg-yellow md:bg-transparent w-32 p-1 md:w-auto md:p-0 hidden peer-checked:flex z-10 rounded-md shadow-lg md:shadow-none">
           <li className="md:ml-6">
-            <Link href="/" className="text-black block lg:py-2 lg:px-4 px-2 py-2 hover:bg-yellow border border-yellow hover:text-green ">
+            <Link href="/home" className="text-black block lg:py-2 lg:px-4 px-2 py-2 hover:bg-yellow border border-yellow hover:text-green ">
               Home
             </Link>
           </li>
