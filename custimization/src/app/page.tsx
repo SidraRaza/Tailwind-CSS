@@ -46,7 +46,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-    <div className='bg-yellow lg:h-[550px] sm:h-[650px]'>
+    <div className='bg-yellow lg:h-[550px] h-[650px]'>
 
     </div>
     </>
