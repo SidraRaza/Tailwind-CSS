@@ -46,7 +46,11 @@ const Header = () => {
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <div className='bg-yellow w-full lg:h-[550px] h-[650px]'>
+=======
+    <div className='bg-yellow lg:h-[550px] h-[650px]'>
+>>>>>>> 26bcccb478c85f9c31a0a9572f76663782c9769a
 
     </div>
     </>
