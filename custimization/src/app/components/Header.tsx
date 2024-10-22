@@ -71,7 +71,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/Project"
-                className="block text-black px-2 lg:px-4 lg:py-2 lg:mb-0 lg:hover:bg-yellowLight hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg"
+                className="block text-black px-2 lg:px-4 lg:py-2 py-2 lg:mb-0 lg:hover:bg-yellowLight hover:bg-yellowLight hover:border hover:border-green hover:text-black rounded-lg"
               >
                 Projects
               </Link>
